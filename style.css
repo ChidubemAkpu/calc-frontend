@@ -27,6 +27,9 @@ main{
     
 
 }
+#delete{
+    grid-column:1/5;
+}
 .each-button{
     padding:20px;
     background:black;

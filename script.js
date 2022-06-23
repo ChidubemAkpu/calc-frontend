@@ -56,11 +56,17 @@ function number0(){
     z += "0";
     display();
 }
+function point(){
+    x += ".";
+    z += ".";
+    display();
+}
 function equals(){
-    z += ` = ${eval(x)}<br>`;
+    z += ` = ${eval(x)} <br>`;
     display();
     x = " ";
 }
+
 function plus(){
     x += " + ";
     z += " + ";
