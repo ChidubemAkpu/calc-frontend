@@ -3,7 +3,7 @@
 }
 main{
     padding:20px;
-    margin: 40px;
+    margin: 20pxpx;
 
 }
 .display-section{
@@ -25,6 +25,8 @@ main{
     grid-gap:10px;
     background:rgb(0, 255, 170);
     color:white;
+    padding: 10px;
+    
 
 }
 .each-button{

@@ -31,11 +31,6 @@ function number5(){
     z += "5";
     display();
 }
-function number0(){
-    x += "0";
-    z += "0";
-    display();
-}
 function number6(){
     x += "6";
     z += "6";
@@ -56,6 +51,11 @@ function number9(){
     z += "9";
     display();
 }
+function number0(){
+    x += "0";
+    z += "0";
+    display();
+}
 function equals(){
     z += ` = ${eval(x)}`;
     display();
@@ -71,6 +71,7 @@ function minus(){
     z += " - ";
     display()
 }
+
 function multiply(){
     x += " * "
     z += "  &#xd7;  "
