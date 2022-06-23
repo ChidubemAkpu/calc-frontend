@@ -57,7 +57,7 @@ function number0(){
     display();
 }
 function equals(){
-    z += ` = ${eval(x)}`;
+    z += ` = ${eval(x)} <br>`;
     display();
     x = " ";
 }
