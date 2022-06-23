@@ -15,9 +15,7 @@ main{
     align-items: center;
     overflow-x: scroll;
 }
-#equals{
-    grid-column: 2 / 4;
-}
+
 .button-section{
     text-align:center;
     display:grid;

@@ -1,4 +1,4 @@
-let p = document.getElementById("display")
+
 let x = "";
 let y = eval(x);
 let z = "";
@@ -67,7 +67,7 @@ function plus(){
     display();
 }
 function minus(){
-    x += " - "
+    x += " - ";
     z += " - ";
     display()
 }
@@ -87,6 +87,9 @@ function divide(){
     z += "  &#xf7;  "
     display()
 }
-function clear(){
-    p.innerhtml = " "
+function clear_me(){
+    x = " ";
+    z = "";
+    display()
 }
+
